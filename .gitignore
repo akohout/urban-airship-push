@@ -1,0 +1,5 @@
+# Don't commit node dependencies
+node_modules
+
+# Developer editors
+.idea

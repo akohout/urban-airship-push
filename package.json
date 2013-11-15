@@ -1,0 +1,38 @@
+{
+  "name": "urban-airship-push",
+  "description": "An API wrapper for urban airship push notifications, based on API v3.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/BrightSnowman/urban-airship-push",
+  "author": {
+    "name": "Alexander Kohout",
+    "email": "alexanderkohout@gmail.com",
+    "url": "alexanderkohout.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BrightSnowman/urban-airship-push.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BrightSnowman/urban-airship-push/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/BrightSnowman/urban-airship-push/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/urban-airship-push",
+  "engines": {
+    "node": ">= 0.10.7"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1"
+  },
+  "keywords": ["urban airship", "push notification"]
+}
