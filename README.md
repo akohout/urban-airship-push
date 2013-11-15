@@ -45,7 +45,7 @@ var urbanAirshipPush = new UrbanAirshipPush(testConfig);
 
 ## Documentation
 
-The module provides a constructor function, which provides the following
+The module provides a constructor function, which itself provides the following
 functionality after instantiating.
 
 ### API Objects
@@ -76,7 +76,8 @@ var urbanAirshipPush = new UrbanAirshipPush(testConfig);
 
 ### Push API: Validate
 
-The Push API currently implements the following methods.
+Validate your push data before sending. This will only validate, 
+and the API will tell you whether the data structure is ok or not.
 
 ```javascript
 var UrbanAirshipPush = require('urban-airship-push.js');
@@ -104,7 +105,7 @@ urbanAirshipPush.push.validate(pushData, callback);
 
 ### Push API: Push
 
-The Push API currently implements the following methods.
+Send a push notification.
 
 ```javascript
 var UrbanAirshipPush = require('urban-airship-push.js');
@@ -132,7 +133,7 @@ urbanAirshipPush.push.send(pushData, callback);
 
 ### Schedules API: Push
 
-The Push API currently implements the following methods.
+Send a push notification to a scheduled time.
 
 ```javascript
 var UrbanAirshipPush = require('urban-airship-push.js');
@@ -272,7 +273,7 @@ stubs in the same style the push and the schedule API have been implemented.
 
 ## Release History
 
-### 0.1.0 15.11.2013
+### V0.1.0 - 15.11.2013
 
 Init Release. Supported APIs:
 * Push API: Complete
