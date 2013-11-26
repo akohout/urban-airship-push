@@ -29,7 +29,7 @@ Install the module with: `npm install urban-airship-push`
 ```javascript
 // Require the module. The module provides a constructor function as main
 // entry object.
-var UrbanAirshipPush = require('urban-airship-push.js');
+var UrbanAirshipPush = require('urban-airship-push');
 
 // Your app access configuration. You will find this stuff in your App
 // Settings under App Key, App Secret and App Master Secret.
@@ -55,7 +55,7 @@ which are itself encapsulated in a separate object. The following objects are
  available:
 
 ```javascript
-var UrbanAirshipPush = require('urban-airship-push.js');
+var UrbanAirshipPush = require('urban-airship-push');
 var config = {
     key: 'XXX',
     secret: 'YYY',
@@ -80,7 +80,7 @@ Validate your push data before sending. This will only validate,
 and the API will tell you whether the data structure is ok or not.
 
 ```javascript
-var UrbanAirshipPush = require('urban-airship-push.js');
+var UrbanAirshipPush = require('urban-airship-push');
 var config = {
     key: 'XXX',
     secret: 'YYY',
@@ -108,7 +108,7 @@ urbanAirshipPush.push.validate(pushData, callback);
 Send a push notification.
 
 ```javascript
-var UrbanAirshipPush = require('urban-airship-push.js');
+var UrbanAirshipPush = require('urban-airship-push');
 var config = {
     key: 'XXX',
     secret: 'YYY',
@@ -136,7 +136,7 @@ urbanAirshipPush.push.send(pushData, callback);
 Send a push notification to a scheduled time.
 
 ```javascript
-var UrbanAirshipPush = require('urban-airship-push.js');
+var UrbanAirshipPush = require('urban-airship-push');
 var config = {
     key: 'XXX',
     secret: 'YYY',
@@ -169,7 +169,7 @@ only have to enter your app's credentials.
 Send a Push Notification to your people: (see http://docs.urbanairship.com/reference/api/v3/push.html#push for API details)
 
 ```javascript
-var UrbanAirshipPush = require('urban-airship-push.js');
+var UrbanAirshipPush = require('urban-airship-push');
 var config = {
     key: 'XXX',
     secret: 'YYY',
@@ -199,7 +199,7 @@ Validate your Push Notification information before you send:
 (http://docs.urbanairship.com/reference/api/v3/push.html#validate for API details)
 
 ```javascript
-var UrbanAirshipPush = require('urban-airship-push.js');
+var UrbanAirshipPush = require('urban-airship-push');
 var config = {
     key: 'XXX',
     secret: 'YYY',
@@ -230,7 +230,7 @@ urbanAirshipPush.push.validate(pushInfo, function (err, data) {
 Send a scheduled push notification: (see http://docs.urbanairship.com/reference/api/v3/schedule.html#schedule-a-notification for more details)
 
 ```javascript
-var UrbanAirshipPush = require('urban-airship-push.js');
+var UrbanAirshipPush = require('urban-airship-push');
 var config = {
     key: 'XXX',
     secret: 'YYY',
