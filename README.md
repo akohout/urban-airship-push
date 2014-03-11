@@ -40,7 +40,7 @@ var config = {
 };
 
 // Create a push object
-var urbanAirshipPush = new UrbanAirshipPush(testConfig);
+var urbanAirshipPush = new UrbanAirshipPush(config);
 ```
 
 ## Documentation
@@ -61,7 +61,7 @@ var config = {
     secret: 'YYY',
     masterSecret: 'ZZZ'
 };
-var urbanAirshipPush = new UrbanAirshipPush(testConfig);
+var urbanAirshipPush = new UrbanAirshipPush(config);
 
 // urbanAirshipPush.deviceInformation represents the Device Information API
 // urbanAirshipPush.deviceRegistration represents the Device Registration API
@@ -86,7 +86,7 @@ var config = {
     secret: 'YYY',
     masterSecret: 'ZZZ'
 };
-var urbanAirshipPush = new UrbanAirshipPush(testConfig);
+var urbanAirshipPush = new UrbanAirshipPush(config);
 
 /**
  * Validate the push data to see whether the structure is ok.
@@ -114,7 +114,7 @@ var config = {
     secret: 'YYY',
     masterSecret: 'ZZZ'
 };
-var urbanAirshipPush = new UrbanAirshipPush(testConfig);
+var urbanAirshipPush = new UrbanAirshipPush(config);
 
 /**
  * Send a push notification immediately to your receivers.
@@ -142,7 +142,7 @@ var config = {
     secret: 'YYY',
     masterSecret: 'ZZZ'
 };
-var urbanAirshipPush = new UrbanAirshipPush(testConfig);
+var urbanAirshipPush = new UrbanAirshipPush(config);
 
 /**
  * Send the scheduled push data to the UA Api.
@@ -175,7 +175,7 @@ var config = {
     secret: 'YYY',
     masterSecret: 'ZZZ'
 };
-var urbanAirshipPush = new UrbanAirshipPush(testConfig);
+var urbanAirshipPush = new UrbanAirshipPush(config);
 
 var pushInfo = {
     device_types: 'all',
@@ -205,7 +205,7 @@ var config = {
     secret: 'YYY',
     masterSecret: 'ZZZ'
 };
-var urbanAirshipPush = new UrbanAirshipPush(testConfig);
+var urbanAirshipPush = new UrbanAirshipPush(config);
 
 var pushInfo = {
     device_types: 'all',
@@ -236,7 +236,7 @@ var config = {
     secret: 'YYY',
     masterSecret: 'ZZZ'
 };
-var urbanAirshipPush = new UrbanAirshipPush(testConfig);
+var urbanAirshipPush = new UrbanAirshipPush(config);
 
 var scheduleData = {
     "schedule" : {
