@@ -1,7 +1,7 @@
 {
   "name": "urban-airship-push",
   "description": "An API wrapper for urban airship push notifications, based on API v3.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/BrightSnowman/urban-airship-push",
   "author": {
     "name": "Alexander Kohout",
